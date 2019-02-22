@@ -12,6 +12,7 @@ struct DeterministicPushdownAutomata {
 
     mutating func recognize() -> Bool {
         var cur = states.start
+
         while(!states.isAccepted(stateID: cur) && !states.isHalted){
 
             let input = self.tape.remove(at:tape.startIndex)
