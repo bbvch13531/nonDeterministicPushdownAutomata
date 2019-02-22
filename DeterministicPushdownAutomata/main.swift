@@ -10,7 +10,11 @@ func readInput(_ str:String?) -> Int {
     return res
 }
 
+// main.swift에 입출력을 위한 불필요한 변수가 많음.
+// 나중에 macApp으로 옮길 때 사라질 코드이므로 잠시 이대로 둘 것.
+
 print("Input tape 입력 : ")
+
 let tape = readLine()
 print("State의 개수와 Sigma의 개수 입력 : ")
 
@@ -28,6 +32,7 @@ let N = Int(array[0])!
 let S = Int(array[1])!
 
 array.removeAll()
+print("\ asd")
 print("Start state와 Accept state 입력 (첫번째는 start, 이후는 accept) : ")
 
 num = readLine()

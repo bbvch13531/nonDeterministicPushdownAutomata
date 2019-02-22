@@ -28,9 +28,9 @@ struct States {
         self.accept = accept
     }
 
-    func isAccepted(state: Int) -> Bool {
+    func isAccepted(stateID: Int) -> Bool {
         for s in accept{
-            if s == state {
+            if s == stateID {
                 return true
             }
         }
