@@ -1,0 +1,16 @@
+PODS:
+  - SwiftTemplateLibrary (0.1.0)
+
+DEPENDENCIES:
+  - SwiftTemplateLibrary (~> 0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - SwiftTemplateLibrary
+
+SPEC CHECKSUMS:
+  SwiftTemplateLibrary: 5967b31fe998cb162ec53a9d4160be01b8fa9c42
+
+PODFILE CHECKSUM: 3768da78316ed4be7cc1fd9f4e47d2e5d5292b32
+
+COCOAPODS: 1.7.0.beta.1
