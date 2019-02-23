@@ -1,4 +1,4 @@
-struct DeterministicPushdownAutomata {
+struct NonDeterministicPushdownAutomata {
     var states: States
     var head: Header
     var tape: String
@@ -16,17 +16,17 @@ struct DeterministicPushdownAutomata {
         while(!states.isAccepted(stateID: cur) && !states.isHalted){
 
             let input = self.tape.remove(at:tape.startIndex)
-            //tape 의 첫번쨰 지움
+            //tape 의 첫번째 지움
+            // e 인 경우에 예외처리해야함.
 
             if(stk.isEmpty()){
                 return false
             }
             let top = stk.pop()
-
+            // pop도 e 인 경우에 예외처리해야함.
             // 현재 state에 해당하는 sigma여러개를 가져온다. ㄴㄴ
             // var sigmas = states.findSigma(state:cur)
             
-
             guard let nextSigma = head.read(cur: cur,tape: input, stk: top) else {
                 return false               
             }

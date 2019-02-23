@@ -66,7 +66,7 @@ for _ in 0..<S {
     inputState.transition.append(tmp)
     sigma.removeAll()
 }
-var DPA = DeterministicPushdownAutomata(states:inputState, tape:tape!)
+var NDPA = NonDeterministicPushdownAutomata(states:inputState, tape:tape!)
 
-let res = DPA.recognize()
+let res = NDPA.recognize()
 print(res)

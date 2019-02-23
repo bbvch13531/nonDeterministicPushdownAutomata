@@ -1,5 +1,5 @@
-# deterministicPushdownAutomata
-Deterministic Pushdown Automata implementation of Swift
+# nonDeterministicPushdownAutomata
+NonDeterministic Pushdown Automata implementation of Swift
 
 
 ## TIL
@@ -30,3 +30,11 @@ Class Diagram을 그리는 중...
 알고보니 DFS로 탐색해서 가능한 모든 경우 중 accepted되는 단 한 가지의 경우를 찾는 방법으로 고쳐야 한다.
 
 context-free language 와 DPDA의 개념을 다시 공부중...
+
+0223
+
+- Context-free language 공부
+- DPDA 공부
+- Class diagram 다시 설계
+- 로직 세우기
+- 코딩은 하지 말자! 설계만 해보자!
