@@ -32,10 +32,7 @@ let N = Int(array[0])!
 let S = Int(array[1])!
 
 array.removeAll()
-<<<<<<< HEAD
-print("\ asd")
-=======
->>>>>>> 3f0f0a263ce926ca172b9d93f7df35856115c966
+
 print("Start state와 Accept state 입력 (첫번째는 start, 이후는 accept) : ")
 
 num = readLine()
