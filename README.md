@@ -1,5 +1,5 @@
 # nonDeterministicPushdownAutomata
-NonDeterministic Pushdown Automata implementation of Swift
+NonDeterministic Pushdown Automata implementation in Swift
 
 
 ## TIL
